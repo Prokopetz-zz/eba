@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/Prokopetz/eba/issues"
   },
-  "homepage": "https://github.com/Prokopetz/eba#readme"
+  "homepage": "https://github.com/Prokopetz/eba#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  }
 }

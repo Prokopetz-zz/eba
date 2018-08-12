@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "sass public/scss:build/css --watch & nodemon index.js"
+    "dev": "sass styles/scss/main.scss:public/css/main.css --watch & nodemon index.js"
   },
   "repository": {
     "type": "git",

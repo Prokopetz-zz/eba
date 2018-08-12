@@ -4,7 +4,9 @@
   "description": "Express based application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path sass public/scss/index.scss build/css/index.css --watch",
+    "dev": "nodemon -e sass -x \"npm run build-css\" & nodemon index.j"
   },
   "repository": {
     "type": "git",
